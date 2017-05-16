@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+ <!-- Bootstrap core CSS -->
+    <link href="../resource/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+      <form class="form-signin" action="addArticle.do" method="post" enctype="multipart/form-data">
+        <h2 class="form-signin-heading">增加图文</h2>
+        <label for="inputEmail" class="sr-only">图文名称</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="图文名称" required autofocus>
+        <label for="inputPassword" class="sr-only">图文内容</label>
+        <input type="file" id="contentPath" name="contentPath" class="form-control" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">增加</button>
+      </form>
+    </div> <!-- /container -->
+</body>
+</html>
