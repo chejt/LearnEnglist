@@ -10,7 +10,7 @@ function setCenterListData(){
         url: "allWordPaging.do",
         data: {
             page: 1,
-            pageSize: 20,
+            pageSize: 10,
             wordName:wordName,
             wordType:wordType
         },
@@ -53,7 +53,7 @@ function topage(page) {
         url: "allWordPaging.do",
         data: {
             page: page,
-            pageSize: 20,
+            pageSize: 10,
             wordName:wordName,
             wordType:wordType
         },

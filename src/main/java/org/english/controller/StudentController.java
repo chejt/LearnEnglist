@@ -122,7 +122,8 @@ public class StudentController {
 					arr.add(tmp);
 				}
 			}
-			result.put("totalpage", Math.ceil(wordService.getWordCount("")/pageSize));
+			double d = pageSize;
+			result.put("totalpage", Math.ceil(wordService.getWordCount("")/d));
 		}else{
 			words = wordService.getWordByKeyWordPage(student.getId(),page,pageSize);
 			if(words!=null){
@@ -147,7 +148,8 @@ public class StudentController {
 					arr.add(tmp);
 				}
 			}
-			result.put("totalpage", Math.ceil(wordService.getWordByStudentIdCount(student.getId())/pageSize));
+			double d = pageSize;
+			result.put("totalpage", Math.ceil(wordService.getWordByStudentIdCount(student.getId())/d));
 		}
 		
 		

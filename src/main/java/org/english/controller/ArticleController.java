@@ -79,7 +79,8 @@ public class ArticleController {
 		if(admin!=null){
 			result.put("adminRole",adminDao.getAdminRoleId(admin.getId()));
 		}
-		result.put("totalpage", Math.ceil(articleDao.getArticleCount(name)/pageSize));
+		double d = pageSize;
+		result.put("totalpage", Math.ceil(articleDao.getArticleCount(name)/d));
 		response.getWriter().write(result.toString());
 	}
 	

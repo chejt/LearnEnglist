@@ -98,7 +98,8 @@ public class WordController {
 		if(admin!=null){
 			result.put("adminRole",adminDao.getAdminRoleId(admin.getId()));
 		}
-		result.put("totalpage", Math.ceil(wordService.getWordCount("")/pageSize));
+		double d = pageSize;
+		result.put("totalpage", Math.ceil(wordService.getWordCount("")/d));
 		response.getWriter().write(result.toString());
 	}
 	@RequestMapping(value="updateWordTime.do")

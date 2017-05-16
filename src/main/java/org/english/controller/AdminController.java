@@ -118,7 +118,8 @@ public class AdminController {
 		}
 		result.put("info2", arr);
 		result.put("currentpage", page);
-		result.put("totalpage", Math.ceil(adminDao.getAllAdminCount()/pageSize));
+		double d = pageSize;
+		result.put("totalpage", Math.ceil(adminDao.getAllAdminCount()/d));
 		response.getWriter().write(result.toString());
 	}
 	@RequestMapping(value="updateRolePre.do")

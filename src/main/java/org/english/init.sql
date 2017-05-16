@@ -13,6 +13,17 @@ INSERT INTO `words` VALUES ('8', 'n. 轴；轴线；轴心国', 'axis', 'C:\\yfq
 INSERT INTO `words` VALUES ('9', 'n. 家务事', 'housework', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\English\\upload\\housework.mp3', '\'haʊswɜːk');
 INSERT INTO `words` VALUES ('10', 'n. 助手，帮手', 'helper', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\English\\upload\\helper.mp3', '\'helpə(r)');
 INSERT INTO `words` VALUES ('11', 'adj. 有帮助的；有益的', 'helpful', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\English\\upload\\helpful.mp3', '\'hɛlpfl');
+INSERT INTO `words` VALUES ('12', 'adj. 每；各自的 adv. 每个；各自 pron. 每个；各自', 'each', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\each.mp3', 'iːtʃ');
+INSERT INTO `words` VALUES ('13', 'adj. 渴望的；热切的；热心的', 'eager', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\eager.mp3', '\'iːgə');
+INSERT INTO `words` VALUES ('14', 'n. 鹰；鹰状标饰', 'eagle', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\eagle.mp3', '\'iːg(ə)l');
+INSERT INTO `words` VALUES ('15', 'n. 地球；地表，陆地；vt. 把（电线）[电] 接地；', 'earth', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\earth.mp3', 'ɜːθ');
+INSERT INTO `words` VALUES ('16', 'vt. 减轻，缓和；使安心 n. 轻松，舒适；安逸，悠闲', 'ease', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\ease.mp3', 'iːz');
+INSERT INTO `words` VALUES ('17', 'adj. 容易的；舒适的 adv. 不费力地，从容地 vi. 停止划桨', 'easy', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\easy.mp3', '\'iːzɪ');
+INSERT INTO `words` VALUES ('18', '\'izɪ,goɪŋ', 'easygoing', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\easygoing.mp3', 'adj. 悠闲的；逍遥自在的；脾气随和的；不严肃的');
+INSERT INTO `words` VALUES ('19', 'adj. 无距的；无刺的', 'ecalcarate', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\ecalcarate.mp3', 'i:\'kælkə,reit');
+INSERT INTO `words` VALUES ('20', '瘀斑', 'ecchymoses', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\ecchymoses.mp3', ',ekɪ\'məʊsiːz');
+INSERT INTO `words` VALUES ('21', 'n. [病理] 瘀斑', 'ecchymosis', 'C:\\yfq\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp1\\wtpwebapps\\LearnEnglish\\upload\\ecchymosis.mp3', ',ekɪ\'məʊsɪs');
+
 
 INSERT INTO `word_wordtype` VALUES ('1', '1');
 INSERT INTO `word_wordtype` VALUES ('1', '2');
@@ -33,6 +44,18 @@ INSERT INTO `word_wordtype` VALUES ('10', '1');
 INSERT INTO `word_wordtype` VALUES ('10', '2');
 INSERT INTO `word_wordtype` VALUES ('11', '1');
 INSERT INTO `word_wordtype` VALUES ('11', '2');
+INSERT INTO `word_wordtype` VALUES ('12', '1');
+INSERT INTO `word_wordtype` VALUES ('13', '1');
+INSERT INTO `word_wordtype` VALUES ('14', '1');
+INSERT INTO `word_wordtype` VALUES ('15', '1');
+INSERT INTO `word_wordtype` VALUES ('16', '1');
+INSERT INTO `word_wordtype` VALUES ('16', '2');
+INSERT INTO `word_wordtype` VALUES ('17', '1');
+INSERT INTO `word_wordtype` VALUES ('18', '1');
+INSERT INTO `word_wordtype` VALUES ('18', '2');
+INSERT INTO `word_wordtype` VALUES ('19', '3');
+INSERT INTO `word_wordtype` VALUES ('20', '3');
+INSERT INTO `word_wordtype` VALUES ('21', '3');
 
 
 INSERT INTO `admins` VALUES ('1', 'chejt', 'cjt@ht.com', '123');
